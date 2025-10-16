@@ -1,0 +1,39 @@
+# Node/npm
+node_modules/
+.npm/
+npm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build outputs
+build/
+dist/
+.cache/
+.temp/
+
+# Env
+.env
+.env.*
+
+# Python (if used alongside)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Misc
+*.swp
+*.swo

@@ -1,0 +1,82 @@
+body {
+    background-color: #212529;
+}
+
+.icon-lg {
+    font-size: 4rem;
+}
+
+/* Стилі для випадаючих списків, щоб вони відповідали темній темі */
+.form-select.bg-dark {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dee2e6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+/* Стилі для сповіщення */
+.alert {
+    position: fixed; 
+    top: 80px;
+    right: 20px;
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    z-index: 1050;
+    display: none;
+    align-items: center;
+}
+
+.close-alert {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* Стилі для футера */
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #444; /* Лінія над футером */
+}
+
+.main-footer p {
+    margin: 0; /* Прибираємо стандартний відступ параграфа */
+    color: #aaa;
+}
+
+.footer-nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 20px; /* Відступ між посиланнями */
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+}
+
+/* Брейкпоінт  Планшети */
+@media (max-width: 992px) {
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Брейкпоінт  Телефони */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .btn-lang {
+        display: none;
+    }
+    .navbar .d-flex .btn {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+}
